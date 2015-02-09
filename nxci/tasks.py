@@ -1,2 +1,2 @@
 def give_me_three():
-    return 5
+    return 3
