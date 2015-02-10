@@ -10,5 +10,8 @@ class NxCi(unittest.TestCase):
     def test_give_me_five(self):
         self.assertEqual(give_me_five(),5)
 
+    def test_more_tests(self):
+        self.assertEqual(2,5)
+
 if __name__ == '__main__':
     unittest.main()
