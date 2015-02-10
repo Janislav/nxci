@@ -3,3 +3,6 @@ def give_me_three():
 
 def give_me_five():
     return 5
+
+def give_me_seven():
+    return 2

@@ -1,5 +1,5 @@
 import unittest
-from nxci.tasks import give_me_three, give_me_five
+from nxci.tasks import give_me_three, give_me_five, give_me_seven
 
 class NxCi(unittest.TestCase):
 
@@ -9,14 +9,8 @@ class NxCi(unittest.TestCase):
     def test_give_me_five(self):
         self.assertEqual(give_me_five(),5)
 
-    def test_more_tests(self):
-        self.assertEqual(5,5)
-
-    def test_more_tests(self):
-        self.assertEqual(2,2)
-
-    def test_more_tests(self):
-        self.assertEqual(1,2)
+    def test_give_me_seven():
+        self.assertEqual(7, give_me_seven())
 
 if __name__ == '__main__':
     unittest.main()
